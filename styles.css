@@ -1,56 +1,69 @@
-   body {
-       background: linear-gradient(to right, #ff7e5f, #dbad8b);
-   }
-   
-   .input-group {
-       width: 90px;
-       margin: 10px 0px;
-       text-align: right!important;
-       .form-select {
-           text-align: center!important;
-           background-color: transparent!important;
-       }
-   }
-   
-   .form-select {
-       --bs-form-select-bg-img: none!important;
-       padding: 10px 0px 10px 0px;
-   }
-   
-   .row {
-       text-align: center!important;
-       justify-content: center!important;
-       align-items: center!important;
-   }
-   
-   .form-select:hover {
-       background-color: #e6e6e6;
-       border-color: #007bff;
-       /* Change border color on hover */
-   }
-   
-   html,
-   body {
-       height: 100%;
-       margin: 0;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-   
-   .game {
-       width: 350px;
-       height: 35vh;
-       box-shadow: 0px 0px 5px 0.7px black;
-       align-items: center!important;
-       border-radius: 10px;
-       background: linear-gradient(to right, #dbad8b, #ff7e5f);
-   }
-   
-   .form {
-       padding: 20px 0px 50px 0px;
-   }
-   
-   #reset:hover {
-       padding: 5px 10px;
-   }
+body {
+    background: linear-gradient(to right, #ff7e5f, #dbad8b);
+}
+
+.input-group {
+    width: 90px;
+    margin: 10px 0px;
+    text-align: right!important;
+    .form-select {
+        text-align: center!important;
+        background-color: transparent!important;
+    }
+}
+
+.form-select {
+    --bs-form-select-bg-img: none!important;
+    padding: 10px 0px 10px 0px;
+}
+
+.row {
+    text-align: center!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.form-select:hover {
+    background-color: #e6e6e6;
+    border-color: #007bff;
+    /* Change border color on hover */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 750px) {
+    .game {
+        width: 350px;
+        height: 35vh;
+        box-shadow: 0px 0px 5px 0.7px black;
+        align-items: center!important;
+        border-radius: 10px;
+        background: linear-gradient(to right, #dbad8b, #ff7e5f);
+    }
+}
+
+@media (max-width: 750px) {
+    .game {
+        width: 350px;
+        height: 50vh;
+        box-shadow: 0px 0px 5px 0.7px black;
+        align-items: center!important;
+        border-radius: 10px;
+        background: linear-gradient(to right, #dbad8b, #ff7e5f);
+    }
+}
+
+.form {
+    padding: 20px 0px 50px 0px;
+}
+
+#reset:hover {
+    padding: 5px 10px;
+}
