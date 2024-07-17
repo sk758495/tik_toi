@@ -28,9 +28,6 @@
    }
    
    .form-select:hover {
-       /* Define the hover effect */
        background-color: #e6e6e6;
-       /* Change background color on hover */
        border-color: #007bff;
-       /* Change border color on hover */
    }
