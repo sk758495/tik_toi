@@ -1,0 +1,36 @@
+   body {
+       background: linear-gradient(to right, #ff7e5f, #feb47b);
+   }
+   
+   .text {
+       color: red;
+   }
+   
+   .input-group {
+       width: 90px;
+       margin: 10px 0px;
+       text-align: right!important;
+       .form-select {
+           text-align: center!important;
+           background-color: transparent!important;
+       }
+   }
+   
+   .form-select {
+       --bs-form-select-bg-img: none!important;
+       padding: 10px 0px 10px 0px;
+   }
+   
+   .row {
+       text-align: center!important;
+       justify-content: center!important;
+       align-items: center!important;
+   }
+   
+   .form-select:hover {
+       /* Define the hover effect */
+       background-color: #e6e6e6;
+       /* Change background color on hover */
+       border-color: #007bff;
+       /* Change border color on hover */
+   }
