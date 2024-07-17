@@ -44,6 +44,7 @@
        box-shadow: 0px 0px 5px 0.7px black;
        align-items: center!important;
        border-radius: 10px;
+       background: linear-gradient(to right, #dbad8b, #ff7e5f);
    }
    
    .form {
