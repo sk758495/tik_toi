@@ -1,9 +1,5 @@
    body {
-       background: linear-gradient(to right, #ff7e5f, #feb47b);
-   }
-   
-   .text {
-       color: red;
+       background: linear-gradient(to right, #ff7e5f, #dbad8b);
    }
    
    .input-group {
@@ -30,4 +26,30 @@
    .form-select:hover {
        background-color: #e6e6e6;
        border-color: #007bff;
+       /* Change border color on hover */
+   }
+   
+   html,
+   body {
+       height: 100%;
+       margin: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .game {
+       width: 350px;
+       height: 35vh;
+       box-shadow: 0px 0px 5px 0.7px black;
+       align-items: center!important;
+       border-radius: 10px;
+   }
+   
+   .form {
+       padding: 20px 0px 50px 0px;
+   }
+   
+   #reset:hover {
+       padding: 5px 10px;
    }
